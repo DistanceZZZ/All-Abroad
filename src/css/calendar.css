@@ -1,0 +1,169 @@
+/* calendar content */
+.calendar-container {
+  padding: 20px;
+  background: var(--tan);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+/* Calendar header styles */
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+.month-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.month-section h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: var(--dark-gray);
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s;
+}
+
+.nav-button img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Calendar grid styles */
+.rbc-month-view {
+  border-radius: 4px !important;
+  background: var(--tan) !important;
+}
+.rbc-off-range-bg {
+  background-color: var(--tan) !important;
+  opacity: 0.7;
+}
+
+.rbc-day-bg {
+  background-color: var(--tan) !important;
+}
+
+/* Event styles */
+.calendar-event-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.calendar-event {
+  padding: 2px 4px !important;
+  font-size: 0.85em !important;
+  border-radius: 4px !important;
+  color: var(--dark-gray) !important;
+  font-weight: bold !important;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Tooltip styles */
+.event-tooltip {
+  position: absolute;
+  z-index: 1000;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  min-width: 200px;
+  top: calc(100% + 5px);
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+
+.event-tooltip h4 {
+  margin: 0 0 8px 0;
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.event-tooltip p {
+  margin: 4px 0;
+  color: #666;
+  font-size: 12px;
+}
+
+/* Today's date highlight */
+.rbc-today {
+  background-color: var(--teal) !important;
+  color: white !important;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .calendar-container {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .month-section {
+    gap: 10px;
+  }
+  
+  .month-section h2 {
+    font-size: 1.2rem;
+  }
+
+  .event-tooltip {
+    min-width: 150px;
+  }
+}
+
+/* Trip key */
+.trip-key {
+  margin-top: 2em;
+}
+
+.trip-card-list {
+    border: 1px solid var(--dark-gray);
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.trip-card {
+    border-radius: 20px;
+    padding: 1em;
+    width: auto;
+    display: block;
+    margin: 1em; 
+} 
+
+.trip-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rome {
+  background-color: var(--red);
+}
+
+.florence {
+  background-color: var(--yellow);
+}

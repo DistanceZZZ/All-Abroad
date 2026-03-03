@@ -1,0 +1,259 @@
+/* all journal entries */
+
+.journal-card-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.no-entries-message {
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: var(--tan);
+    border-radius: 20px;
+    color: var(--dark-gray);
+}
+
+.no-entries-message p {
+    margin: 0;
+    font-size: var(--mobile-medium);
+}
+
+.journal-card-list a {
+    text-decoration: none;
+    color: var(--dark-gray);
+}
+
+.journal-card {
+    padding: 1rem 2rem;
+    border: solid 1px var(--dark-gray);
+    border-radius: 20px;
+    margin: 1rem 0;
+}
+
+.journal-card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.journal-card .location-bubble {
+    text-align: right;
+    flex: 0;
+}
+
+.journal-card-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.journal-card .icon {
+    margin: 0;
+}
+
+.journal-card .icon-label {
+    margin: 0 1rem;
+}
+
+.journal-card div {
+    margin: 1rem 0;
+}
+
+/* new journal entry */
+.journal-entry-content .icon-group {
+    margin: 1em 0;
+}
+
+.journal-entry-content .journal-text-content {
+    margin: 1em 0;
+}
+
+/* edit journal page*/
+.edit-journal-page .page-header {
+    display: block;
+}
+
+.add-journal-page .page-header {
+    display: block;
+}
+
+.filters-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem 0;
+  padding: 0 1rem;
+}
+
+.filter-select {
+  min-width: 200px;
+  padding: 0.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: var(--mobile-medium);
+  background-color: var(--tan);
+  color: var(--dark-gray);
+  font-family: 'regular';
+}
+
+.filter-select:focus {
+  outline: none;
+  background-color: var(--tan);
+}
+
+.date-filter-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.clear-date-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: var(--tan);
+  cursor: pointer;
+  font-size: var(--mobile-medium);
+  color: var(--dark-gray);
+  font-family: 'regular';
+}
+
+.clear-date-button:hover {
+  background-color: var(--tan);
+  
+}
+
+.journal-content {
+  margin: 1rem 0;
+}
+
+.points-of-interest {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.points-of-interest h4 {
+  margin: 0 0 0.5rem 0;
+  color: #495057;
+  font-size: 0.9rem;
+}
+
+.poi-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.poi-tag {
+  background-color: #e9ecef;
+  color: #495057;
+  padding: 0.25rem 0.75rem;
+  border-radius: 16px;
+  font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.poi-tag:hover {
+  background-color: #dee2e6;
+}
+
+.points-of-interest-input {
+  margin: 1rem 0;
+}
+
+.poi-input-container {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.poi-input-container input {
+  flex: 1;
+}
+
+.add-poi-button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.add-poi-button:hover {
+  background-color: #0056b3;
+}
+
+.remove-poi-button {
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  padding: 0 0.25rem;
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.remove-poi-button:hover {
+  color: #dc3545;
+}
+
+.points-of-interest-section {
+  margin: 1rem 0;
+}
+
+.poi-tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.poi-tag {
+  padding: 0.5rem 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  background-color: white;
+  color: #495057;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.poi-tag:hover {
+  background-color: #f8f9fa;
+  border-color: #007bff;
+}
+
+.poi-tag.selected {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.poi-tag.selected:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.journal-card .poi-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.75rem 0;
+}
+
+.journal-card .poi-tag {
+  background-color: #e9ecef;
+  color: #495057;
+  padding: 0.25rem 0.75rem;
+  border-radius: 16px;
+  font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+}

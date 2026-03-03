@@ -1,0 +1,26 @@
+.welcome-message {
+  text-align: center;
+}
+.welcome-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.welcome-images img {
+  width: 6rem;        
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+@media (min-width: 980px) {
+  .welcome-images img {
+    width: 10rem;
+    height: 10rem;
+  }
+}
