@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Azita, Alex, Rayyan, Finley, Wenhua" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/journal.css" />
+    <link rel="icon" href="img/favicon.png" type="image/png" />
+    <title>New-Journal-Entry</title>
+  </head>
+  <body class="form-page">
+    <header>
+      <div class="nav-bar">
+        <img
+          class="icon all-abroad-icon"
+          src="img/icons/all-abroad-icon.svg"
+          alt="all abroad icon"
+        />
+      </div>
+    </header>
+    <main class="form-page-main add-journal-page">
+      <div class="form-content">
+        <div class="page-header">
+          <p class="subtext">Italy Summer 2025</p>
+          <h1>New Journal Entry</h1>
+        </div>
+        <form class="add-journal-form">
+          <label>Title</label>
+          <input type="text" placeholder="Add Title" name="title" />
+
+          <label>Date</label>
+          <input type="date" placeholder="Date" name="date" />
+
+          <label>Location</label>
+          <div class="location-options">
+            <button type="button" class="location-bubble red">Perugia</button>
+            <button type="button" class="location-bubble orange">Rome</button>
+            <button type="button" class="location-bubble yellow">
+              Bologna
+            </button>
+            <button type="button" class="location-bubble green">
+              Florence
+            </button>
+          </div>
+
+          <label>Journal</label>
+          <textarea></textarea>
+
+          <label>Add Images</label>
+          <input type="file" name="photo" />
+
+          <div class="button-container">
+            <a
+              href="individual-journal-entry.html"
+              class="button cancel-button no-link-styling"
+              >Cancel</a
+            >
+            <a
+              href="individual-journal-entry.html"
+              class="button save-button no-link-styling"
+              >Save</a
+            >
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy;All Abroad</p>
+      <p>Email: <a href="mailto:azitab@uw.edu">azitab@uw.edu</a></p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Azita, Alex, Rayyan, Finley, Wenhua" />
+    <link rel="icon" href="img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/calendar.css" />
+    <title>Add Trip</title>
+  </head>
+  <body class="form-page">
+    <header>
+      <div class="nav-bar">
+        <img
+          class="icon all-abroad-icon"
+          src="img/icons/all-abroad-icon.svg"
+          alt="all abroad icon"
+        />
+      </div>
+    </header>
+    <main class="form-page-main">
+      <div class="form-content">
+        <div class="page-header-simple">
+          <p class="subtext">Italy Summer 2025</p>
+          <h1>Add Trip</h1>
+        </div>
+        <form>
+          <input
+            type="text"
+            placeholder="Title"
+            name="title"
+            class="input-title"
+          />
+          <div class="date-range">
+            <label for="start">Start Date:</label>
+            <input type="date" id="start" name="start" />
+            <div></div>
+            <label for="end">End Date:</label>
+            <input type="date" id="end" name="end" />
+          </div>
+
+          <label class="input-label"></label>
+          <h2>Trip Color</h2>
+          <div class="color-options-container">
+            <label>
+              <input type="radio" name="color" value="red" hidden />
+              <span class="color-btn red"></span>
+            </label>
+            <label>
+              <input type="radio" name="color" value="orange" hidden />
+              <span class="color-btn orange"></span>
+            </label>
+            <label>
+              <input type="radio" name="color" value="yellow" hidden />
+              <span class="color-btn yellow"></span>
+            </label>
+            <label>
+              <input type="radio" name="color" value="green" hidden />
+              <span class="color-btn green"></span>
+            </label>
+            <label>
+              <input type="radio" name="color" value="blue" hidden />
+              <span class="color-btn blue"></span>
+            </label>
+            <label>
+              <input type="radio" name="color" value="purple" hidden />
+              <span class="color-btn purple"></span>
+            </label>
+            <label>
+              <input type="radio" name="color" value="pink" hidden />
+              <span class="color-btn pink"></span>
+            </label>
+          </div>
+          <div class="button-container">
+            <a href="calendar.html" class="button cancel-button no-link-styling"
+              >Cancel</a
+            >
+            <a href="calendar.html" class="button save-button no-link-styling"
+              >Save</a
+            >
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>&copy;All Abroad</p>
+      <p>Email: <a href="mailto:azitab@uw.edu">azitab@uw.edu</a></p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+/* all journal entries */
+.journal-card-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.journal-card-list a {
+    text-decoration: none;
+    color: var(--dark-gray);
+}
+
+.journal-card {
+    padding: 1rem 2rem;
+    border: solid 1px var(--dark-gray);
+    border-radius: 20px;
+    margin: 1rem 0;
+}
+
+.journal-card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.journal-card .location-bubble {
+    text-align: right;
+    flex: 0;
+}
+
+.journal-card-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.journal-card .icon {
+    margin: 0;
+}
+
+.journal-card .icon-label {
+    margin: 0 1rem;
+}
+
+.journal-card div {
+    margin: 1rem 0;
+}
+
+/* new journal entry */
+.journal-entry-content .icon-group {
+    margin: 1em 0;
+}
+
+.journal-entry-content .journal-text-content {
+    margin: 1em 0;
+}
+
+/* edit journal page*/
+.edit-journal-page .page-header {
+    display: block;
+}
+
+.add-journal-page .page-header {
+    display: block;
+}

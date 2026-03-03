@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>New-Point-Of-Interest</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/points-of-interest.css" />
+  </head>
+  <body class="form-page">
+    <header>
+      <div class="nav-bar">
+        <img
+          class="icon all-abroad-icon"
+          src="img/icons/all-abroad-icon.svg"
+          alt="all abroad icon"
+        />
+      </div>
+    </header>
+
+    <main class="form-page-main add-poi-page">
+      <div class="form-content">
+        <div class="page-header-simple">
+          <p class="subtext">Italy Summer 2025</p>
+          <h1>Add Point of Interest</h1>
+        </div>
+        <form class="add-poi-form">
+          <input
+            type="text"
+            placeholder="Title"
+            name="title"
+            class="input-title"
+          />
+
+          <label class="input-label">Location</label>
+          <div class="location-options">
+            <button type="button" class="location-btn selected">Perugia</button>
+            <button type="button" class="location-btn">Rome</button>
+            <button type="button" class="location-btn">Bologna</button>
+            <button type="button" class="location-btn">Florence</button>
+          </div>
+
+          <label class="input-label">Notes</label>
+          <textarea name="notes" class="input-notes"></textarea>
+
+          <div class="button-container">
+            <a
+              href="points-of-interest.html"
+              class="button cancel-button no-link-styling"
+              >Cancel</a
+            >
+            <a
+              href="points-of-interest.html"
+              class="button save-button no-link-styling"
+              >Save</a
+            >
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>&copy;All Abroad</p>
+      <p>Email: <a href="mailto:azitab@uw.edu">azitab@uw.edu</a></p>
+    </footer>
+  </body>
+</html>

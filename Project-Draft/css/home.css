@@ -1,0 +1,49 @@
+
+/* Study-Abroad-Home */
+.back-icon {
+  width: 30px;
+  position: absolute;
+  top: 6rem;
+  left: 2rem;
+}
+
+.study-abroad-home-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.study-abroad-home-img {
+  width: 100%;
+  height: 600px;
+  border-radius: 20px;
+}
+
+.study-abroad-info {
+  margin-top: 0.5rem;
+  text-align: left;
+  background-color: var(--section-color);
+  border: none;
+  padding: 1rem;
+  font-family: 'bold';
+  font-size: var(--mobile-medium);
+  color: var(--dark-gray);
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--teal);
+}
+
+.study-abroad-info p {
+  position:absolute;
+  margin-left:2rem;
+}
+
+@media (min-width: 1024px) {
+  .back-icon {
+    position: absolute;
+    top: 7rem;
+    left: 2rem;
+  }
+}
