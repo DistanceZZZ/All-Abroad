@@ -1,0 +1,18 @@
+Azita:
+- Add favicon
+- Add sections to Calendar Page
+- all images have alt text
+- When to include aria-label?
+- add more responsive design
+
+- HeaderBar: If we are in a 'create new ...' page, the main menu should not be visible,
+and the all=abroad icon should not navigate back to the landing page
+- ADD KEYS TO ALL .MAP() 
+- open / close main menu takes you back to the page you were on 
+- change home page to use a grid instead of a flexbox
+- add an edit/delete poi
+- add an edit/delete trip
+-remove mobile/desktop font sizes
+- add static data in everywhere 
+- make sure all image paths are absolute
+- find a better way to use IDs?
